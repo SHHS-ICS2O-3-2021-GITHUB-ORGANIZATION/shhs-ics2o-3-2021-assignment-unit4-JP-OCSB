@@ -1,5 +1,5 @@
 # NAME OF AUTHOR:  Jacob Pierunek
-# NAME OF THE PROGRAM:  Q3Taxs
+# NAME OF THE PROGRAM:  Q3Taxes
 # DATE OF CREATION:  Jan 12, 2022
 # PURPOSE OF PROGRAM:  To calculate and display the tax on ten items combined
 
