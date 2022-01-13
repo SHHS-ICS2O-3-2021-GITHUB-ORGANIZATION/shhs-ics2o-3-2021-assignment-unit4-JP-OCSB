@@ -1,5 +1,5 @@
 # NAME OF AUTHOR:  Jacob Pierunek
-# NAME OF THE PROGRAM:  Q3Taxes
+# NAME OF THE PROGRAM:  Q3Taxs
 # DATE OF CREATION:  Jan 12, 2022
 # PURPOSE OF PROGRAM:  To calculate and display the tax on ten items combined
 
@@ -21,6 +21,8 @@ taxOnItems = 0
 taxandtotalCostOfItems = 0
 
 # INPUT
+
+#Prompting user for the input of the items and assigning them to variables
 item1 = float(input("Please input the cost of the first item: "))
 item2 = float(input("Please input the cost of the second item: "))
 item3 = float(input("Please input the cost of the third item:  "))
@@ -34,6 +36,7 @@ item10 = float(input("Please input the cost of the tenth item:  "))
 
 # PROCESSING
 
+#Calculating all value of items involved
 totalValueOfItems = (item1 + item2 + item3 + item4 + item5 + item6 + item7+ item8 + item9 + item10)
 
 taxOnItems = totalValueOfItems*0.13
@@ -42,6 +45,7 @@ taxandtotalCostOfItems = taxOnItems + totalValueOfItems
 
 # OUTPUT
 
+#Displaying values to user
 print("The value of the items without tax is: $" + str(totalValueOfItems))
 print("The value of the tax on the items is: $" + str(taxOnItems))
 print("The total value of the tax and the items together is: $" + str(taxandtotalCostOfItems))

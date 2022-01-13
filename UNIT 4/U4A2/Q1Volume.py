@@ -13,15 +13,17 @@ volume = 0
 
 # INPUT
 
+#Prompt user for the length, width, and height and assigning them to variables
 length = int(input("Please input the length: "))
 width = int(input("Please input the width: "))
 height = int(input("Please input the height: "))
 
-
-
 # PROCESSING
 
+#Calculating volume
 volume = length*width*height
 
 # OUTPUT
+
+#Display volume to User
 print("The volume of your rectangular prism is: " + str(volume))
