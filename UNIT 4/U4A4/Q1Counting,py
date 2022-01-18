@@ -1,0 +1,43 @@
+# NAME OF AUTHOR:  Jacob Pierunek
+# NAME OF THE PROGRAM:  Q1Counting
+# DATE OF CREATION:  Jan 18, 2022
+# PURPOSE OF PROGRAM:  To count up and down from an inputed number by an inputed amount each time
+
+
+# VARIABLE DEFINITION
+countTo = 0
+countBy = 0
+start = 0
+
+# INPUT
+
+#Asking user for inputs
+countTo = int(input("Enter number to count up to (-1 to exit): "
+))
+countBy = int(input("Enter number to count by (-1 to exit): "))
+
+# PROCESSING AND OUTPUT
+
+#Seeing if user wants to exit program
+if countTo == -1:
+  exit()
+
+if countBy == -1:
+  exit()
+
+#Counting up to the number
+while start<countTo:
+  print(start)
+  start = start + countBy
+
+#Finishing counting up and starting to count down
+if start==countTo:
+  print(start)
+  start = start - countBy
+
+#Counting down from number
+while start > 0:
+  print(start)
+  start = start - countBy
+
+print("0")
