@@ -1,4 +1,4 @@
-# NAME OF AUTHOR: Ariana Hrlic
+# NAME OF AUTHOR: Jacob Pierunek
 # NAME OF THE PROGRAM:  Q2 Average
 # DATE OF CREATION: January,19,2022
 # PURPOSE OF PROGRAM: collects a series of non zero numbers and caluclates the sum and average of them  
