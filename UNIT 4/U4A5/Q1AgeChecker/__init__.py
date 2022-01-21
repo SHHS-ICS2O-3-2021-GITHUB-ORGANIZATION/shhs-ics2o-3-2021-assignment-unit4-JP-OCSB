@@ -14,7 +14,7 @@ userAge = int(input("Please enter your age: "))
 
 # PROCESSING/OUTPUT 
 
-#See if user is in elementary school
+#See if user is in elementary school.
 if userAge == 5 or userAge < 11:
     print("You are in Elementary school")
 
