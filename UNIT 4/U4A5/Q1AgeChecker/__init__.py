@@ -12,13 +12,13 @@ userAge = 0
 #Prompt user for their age
 userAge = int(input("Please enter your age: "))
 
-# PROCESSING/OUTPUT
+# PROCESSING/OUTPUT 
 
 #See if user is in elementary school
 if userAge == 5 or userAge < 11:
     print("You are in Elementary school")
 
-#See if user is in secondary school
+#See if user is in secondary school.
 elif userAge == 12 or userAge < 14:
     print("You are in secondary school")
 
