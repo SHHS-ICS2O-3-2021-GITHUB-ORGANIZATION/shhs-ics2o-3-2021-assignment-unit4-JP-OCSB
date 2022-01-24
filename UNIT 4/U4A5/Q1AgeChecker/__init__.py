@@ -29,4 +29,3 @@ elif userAge == 15 or userAge < 18:
 #See if user is in university/college/workplace
 elif userAge > 19:
     print("You are in university/college/workplace")
-    
