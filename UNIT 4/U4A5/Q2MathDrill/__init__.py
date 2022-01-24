@@ -27,7 +27,7 @@ while reDo == 1:
   if answer == (num1*num2):
         print("YAY! you got it correct")
         reDo = int(input("Input 1 to continue with another question enter 0 to exit: "))
-        #checking if answer is wrong
+        #checking if answer is wrong.
   if answer != (num1*num2):
             print("OOPS! you got it wrong")
             reDo = int(input("Input 1 to continue with another question enter 0 to exit: "))
@@ -39,14 +39,15 @@ while reDo == 1:
     num2 = random.randint(1,100)
     print(num1, num2)
     answer = int(input("Please add the two numbers above and enter your answer for the question here: "))
-    #checking if answer is correct
+    #checking if answer is correct.
     if answer == (num1+num2):
         print("YAY! you got it correct")
         reDo = int(input("Input 1 to continue with another question enter 0 to exit: "))
-  #checking if answer is wrong
+  #checking if answer is wrong.
         if answer != (num1+num2):
             print("OOPS! you got it wrong")
-            reDo = int(input("Input 1 to continue with another question enter 0 to exit: "))
+            
+            reDo = int(input("Input 1 to continue with another question enter 0 to exit.: "))
     
 
 # INPUT
