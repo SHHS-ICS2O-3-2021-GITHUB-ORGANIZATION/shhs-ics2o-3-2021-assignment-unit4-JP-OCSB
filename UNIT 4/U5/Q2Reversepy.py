@@ -5,7 +5,7 @@
 
 # VARIABLE DEFINITION.
 
-UserInput = 0
+userInput = 0
 wordLength = 0
 
 # INPUT
@@ -13,10 +13,10 @@ wordLength = 0
 #Prompting user to enter word
 userInput = input("Please input a word for me to spell backwards: ")
 
+# PROCESSING/OUTPUT
+
 #Putting the length of the word in a variable
 wordLength = len(userInput)
-
-# PROCESSING/OUTPUT
 
 while wordLength > 0:
     #Changing the wordLength variable each time
