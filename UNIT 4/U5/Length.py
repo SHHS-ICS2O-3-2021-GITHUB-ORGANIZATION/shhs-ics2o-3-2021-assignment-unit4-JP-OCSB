@@ -3,7 +3,7 @@
 # DATE OF CREATION:  Jan 24, 2022
 # PURPOSE OF PROGRAM:  To give the length of a word inputted by the user
 
-# VARIABLE DEFINITION
+# VARIABLE DEFINITION.
 
 userInput = 0
 lenOfWord = 0
@@ -20,7 +20,7 @@ while True:
     print("Thank you for using this tool, goodbye")
     exit()
 
-  #Calculating length of word inputted
+  #Calculating length of word inputed
   lenOfWord = len(userInput)
 
   #Changing length of word to string

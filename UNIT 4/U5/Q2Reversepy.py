@@ -3,7 +3,7 @@
 # DATE OF CREATION:  Jan 25, 2022
 # PURPOSE OF PROGRAM:  To print out an inputed word backwards
 
-# VARIABLE DEFINITION
+# VARIABLE DEFINITION.
 
 UserInput = 0
 wordLength = 0
