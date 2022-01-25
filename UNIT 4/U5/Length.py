@@ -8,7 +8,7 @@
 userInput = 0
 lenOfWord = 0
 
-# INPUT/PROCESSING/OUTPUT
+# INPUT/PROCESSING/OUTPUT.
 
 while True:
 
