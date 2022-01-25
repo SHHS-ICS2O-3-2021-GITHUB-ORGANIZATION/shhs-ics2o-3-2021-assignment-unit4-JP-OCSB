@@ -16,7 +16,7 @@ userInput = input("Please input a word for me to crate a word triangle out of up
 
 # PROCESSING/OUTPUT
 
-#Putting the length of the word in a variable
+#Putting the length of the word in a variable.
 letterRange = len(userInput)
 
 #Printing the word triangle

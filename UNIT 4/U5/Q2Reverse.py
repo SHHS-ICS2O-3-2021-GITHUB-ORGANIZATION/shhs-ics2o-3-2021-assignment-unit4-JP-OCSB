@@ -15,7 +15,7 @@ userInput = input("Please input a word for me to spell backwards: ")
 
 # PROCESSING/OUTPUT
 
-#Putting the length of the word in a variable
+#Putting the length of the word in a variable.
 wordLength = len(userInput)
 
 while wordLength > 0:
