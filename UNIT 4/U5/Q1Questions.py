@@ -26,7 +26,7 @@ question = input ("Enter your question: ")
 filehandle.write(question + "\n")
  
 #Prompting user to enter one possible answers to the question
-answera = input("Enter the first possible answer (a): ")
+answera = input("Enter the first possible answer you will have four possible answers in total (a): ")
 
 #Writing the possible answer in the text file
 filehandle.write(answera + "\n")

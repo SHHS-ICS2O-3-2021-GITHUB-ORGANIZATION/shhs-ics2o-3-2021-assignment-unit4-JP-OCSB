@@ -34,5 +34,6 @@ if userInput == line6:
   print("CORRECT!!!")
 elif userInput != line6:
   print("You are incorrect, the correct answer was " + line6)
+  
 #Closes file
 inFile.close()
